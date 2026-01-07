@@ -2,15 +2,13 @@ import heroImage from '@assets/TUR_4__1767036886340.jpeg';
 import operaHouse from '@assets/stock_images/elegant_opera_house__eeb33555.jpg';
 import maestroConducting from '@assets/P1000457_1766181097631.jpeg';
 import zelleQR from '@assets/image_1767036056896.png';
-import morrisRobinson from '@assets/PHOTO-2026-01-06-10-10-37_1767752923954.jpg';
+import morrisRobinson from '@assets/PHOTO-2026-01-06-10-10-37.jpg';
 import jonathanTetelman from '@assets/image_1767039049084.png';
 import { Button } from "@/components/ui/button";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { motion } from "framer-motion";
 import { Card } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { useLocation } from "wouter";
 import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
@@ -31,14 +29,6 @@ export default function Home() {
     toast({
       title: "Donation Information",
       description: "Please use Zelle for donations. Details provided below.",
-    });
-  };
-
-  const handleContact = (e: React.FormEvent) => {
-    e.preventDefault();
-    toast({
-      title: "Message Sent",
-      description: "We will get back to you shortly.",
     });
   };
 
@@ -281,60 +271,38 @@ export default function Home() {
       {/* Contact Section */}
       <section id="contact" className="py-24 bg-background">
         <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-16">
-            <div>
-              <h2 className="text-4xl font-heading font-bold mb-6">Contact Us</h2>
-              <p className="text-muted-foreground mb-4">
-                We invite you to reach out with any inquiries regarding upcoming productions, auditions, or patronage opportunities.
-              </p>
-              <p className="text-muted-foreground mb-8">
-                We also welcome inquiries for artistic collaborations and partnerships. If you are an artist or organization interested in working with Studio Lirico NYC, please get in touch.
-              </p>
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl font-heading font-bold mb-6">Contact Us</h2>
+            <p className="text-muted-foreground mb-4 text-lg">
+              We invite you to reach out with any inquiries regarding upcoming productions, auditions, or patronage opportunities.
+            </p>
+            <p className="text-muted-foreground mb-12 text-lg">
+              We also welcome inquiries for artistic collaborations and partnerships. If you are an artist or organization interested in working with Studio Lirico NYC, please get in touch.
+            </p>
+            
+            <div className="grid md:grid-cols-3 gap-8 text-center">
+              <div className="p-6 border border-white/5 bg-card">
+                <h4 className="font-bold text-white mb-2 text-xl">General Inquiries</h4>
+                <a href="mailto:info@studioliriconyc.com" className="text-primary hover:text-white transition-colors text-lg">
+                  info@studioliriconyc.com
+                </a>
+              </div>
               
-              <div className="space-y-6">
-                <div>
-                  <h4 className="font-bold text-white mb-2">General Inquiries</h4>
-                  <p className="text-muted-foreground text-lg">info@studioliriconyc.com</p>
-                </div>
-                <div>
-                  <h4 className="font-bold text-white mb-2">Artistic Director</h4>
-                  <p className="text-muted-foreground text-lg">direction@studioliriconyc.com</p>
-                </div>
-                <div>
-                  <h4 className="font-bold text-white mb-2">Social Media</h4>
-                  <div className="flex gap-4 text-muted-foreground">
-                    <a href="https://www.facebook.com/StudioLiricoNYC/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Facebook</a>
-                    <span>•</span>
-                    <a href="https://www.instagram.com/studio_lirico_nyc/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Instagram</a>
-                  </div>
+              <div className="p-6 border border-white/5 bg-card">
+                <h4 className="font-bold text-white mb-2 text-xl">Artistic Director</h4>
+                <a href="mailto:direction@studioliriconyc.com" className="text-primary hover:text-white transition-colors text-lg">
+                  direction@studioliriconyc.com
+                </a>
+              </div>
+              
+              <div className="p-6 border border-white/5 bg-card">
+                <h4 className="font-bold text-white mb-2 text-xl">Social Media</h4>
+                <div className="flex justify-center gap-4 text-muted-foreground">
+                  <a href="https://www.facebook.com/StudioLiricoNYC/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Facebook</a>
+                  <span>•</span>
+                  <a href="https://www.instagram.com/studio_lirico_nyc/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Instagram</a>
                 </div>
               </div>
-            </div>
-
-            <div className="bg-card p-8 border border-white/5">
-              <form className="space-y-4" onSubmit={handleContact}>
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="space-y-2">
-                    <label className="text-sm text-muted-foreground">First Name</label>
-                    <Input className="bg-background border-white/10 rounded-none" required />
-                  </div>
-                  <div className="space-y-2">
-                    <label className="text-sm text-muted-foreground">Last Name</label>
-                    <Input className="bg-background border-white/10 rounded-none" required />
-                  </div>
-                </div>
-                <div className="space-y-2">
-                  <label className="text-sm text-muted-foreground">Email</label>
-                  <Input type="email" className="bg-background border-white/10 rounded-none" required />
-                </div>
-                <div className="space-y-2">
-                  <label className="text-sm text-muted-foreground">Message</label>
-                  <Textarea className="bg-background border-white/10 min-h-[150px] rounded-none" required />
-                </div>
-                <Button type="submit" className="w-full bg-primary text-primary-foreground hover:bg-white hover:text-black rounded-none">
-                  SEND MESSAGE
-                </Button>
-              </form>
             </div>
           </div>
         </div>
