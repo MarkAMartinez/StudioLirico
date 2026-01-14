@@ -104,7 +104,7 @@ export default function Programs() {
                   <div className="absolute bottom-0 left-0 p-8 w-full z-10">
                     <p className="text-primary text-sm tracking-widest mb-2 uppercase">Guest Artist</p>
                     <h3 className="text-3xl font-heading font-bold text-white mb-2">Elizabeth Blancke-Biggs</h3>
-                    <p className="text-white/80 text-lg mb-6">International Dramatic Soprano</p>
+                    <p className="text-white/80 text-lg mb-6">International Opera Star</p>
                     <Button 
                       variant="outline" 
                       className="w-full border-white/20 text-white hover:bg-primary hover:border-primary hover:text-black rounded-none py-6"
