@@ -6,8 +6,8 @@ import { useLocation } from "wouter";
 import { useToast } from "@/hooks/use-toast";
 import morrisRobinson from '@assets/PHOTO-2026-01-06-10-10-37_1767752923954.jpg';
 import jonathanTetelman from '@assets/image_1767039049084.png';
-import elizabethBlanckeBiggs from '@assets/image_1768392692258.png';
-import ariaSeries from '@assets/image_1768392708202.png';
+import elizabethBlanckeBiggs from '@assets/EBB.jpg';
+import ariaSeries from '@assets/Duo.jpg';
 import stAnthonyChurch from '@assets/Screenshot_2026-01-03_at_3.34.35_PM_1767472478626.png';
 
 export default function Programs() {
