@@ -2,7 +2,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
 import { useLocation } from "wouter";
-import morrisImage from '@assets/PHOTO-2026-01-06-10-10-37_1767752923954.jpg';
+import morrisImage from '@assets/PHOTO-2026-01-06-10-10-37.jpg';
 import hallImage from '@assets/image_1767752997156.png';
 
 export default function MasterclassDetails() {
