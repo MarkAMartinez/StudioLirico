@@ -1,7 +1,7 @@
 import heroImage from '@assets/TUR_4__1767036886340.jpeg';
 import operaHouse from '@assets/stock_images/elegant_opera_house__eeb33555.jpg';
 import maestroConducting from '@assets/P1000457_1766181097631.jpeg';
-import zelleQR from '@assets/image_1767036056896.png';
+import zelleQR from '@assets/qr.png';
 import morrisRobinson from '@assets/image_1767038728031.png';
 import jonathanTetelman from '@assets/image_1767039049084.png';
 import { Button } from "@/components/ui/button";
@@ -294,11 +294,11 @@ export default function Home() {
               <div className="space-y-6">
                 <div>
                   <h4 className="font-bold text-white mb-2">General Inquiries</h4>
-                  <p className="text-muted-foreground text-lg">info@studioliriconyc.com</p>
+                  <p className="text-muted-foreground text-lg">info@studioliriconyc.org</p>
                 </div>
                 <div>
                   <h4 className="font-bold text-white mb-2">Artistic Director</h4>
-                  <p className="text-muted-foreground text-lg">direction@studioliriconyc.com</p>
+                  <p className="text-muted-foreground text-lg">direction@studioliriconyc.org</p>
                 </div>
                 <div>
                   <h4 className="font-bold text-white mb-2">Social Media</h4>

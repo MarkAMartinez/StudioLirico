@@ -1,7 +1,7 @@
 import heroImage from '@assets/TUR_4__1767036886340.jpeg';
 import operaHouse from '@assets/stock_images/elegant_opera_house__eeb33555.jpg';
 import maestroConducting from '@assets/P1000457_1766181097631.jpeg';
-import zelleQR from '@assets/image_1767036056896.png';
+import zelleQR from '@assets/qr.png';
 import morrisRobinson from '@assets/PHOTO-2026-01-06-10-10-37.jpg';
 import jonathanTetelman from '@assets/image_1767039049084.png';
 import { Button } from "@/components/ui/button";
