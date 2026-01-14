@@ -4,8 +4,10 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { useLocation } from "wouter";
 import { useToast } from "@/hooks/use-toast";
-import morrisRobinson from '@assets/PHOTO-2026-01-06-10-10-37.jpg';
+import morrisRobinson from '@assets/PHOTO-2026-01-06-10-10-37_1767752923954.jpg';
 import jonathanTetelman from '@assets/image_1767039049084.png';
+import elizabethBlanckeBiggs from '@assets/image_1768392692258.png';
+import ariaSeries from '@assets/image_1768392708202.png';
 import stAnthonyChurch from '@assets/Screenshot_2026-01-03_at_3.34.35_PM_1767472478626.png';
 
 export default function Programs() {
@@ -78,6 +80,70 @@ export default function Programs() {
                           toast({
                               title: "Coming Soon",
                               description: "Details for Jonathan Tetelman's masterclass will be announced shortly.",
+                          });
+                      }}
+                    >
+                      DETAILS
+                    </Button>
+                  </div>
+                </div>
+              </Card>
+            </div>
+
+            {/* Elizabeth Blancke-Biggs */}
+            <div className="flex flex-col">
+              <h3 className="text-xl font-heading font-bold text-center mb-4 text-white/90">Masterclass Series</h3>
+              <Card className="bg-card border-none rounded-none overflow-hidden group hover:shadow-2xl transition-all duration-500">
+                <div className="aspect-[3/4] bg-neutral-900 relative overflow-hidden">
+                  <img 
+                      src={elizabethBlanckeBiggs} 
+                      alt="Elizabeth Blancke-Biggs" 
+                      className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-90" />
+                  <div className="absolute bottom-0 left-0 p-8 w-full z-10">
+                    <p className="text-primary text-sm tracking-widest mb-2 uppercase">Guest Artist</p>
+                    <h3 className="text-3xl font-heading font-bold text-white mb-2">Elizabeth Blancke-Biggs</h3>
+                    <p className="text-white/80 text-lg mb-6">International Dramatic Soprano</p>
+                    <Button 
+                      variant="outline" 
+                      className="w-full border-white/20 text-white hover:bg-primary hover:border-primary hover:text-black rounded-none py-6"
+                      onClick={() => {
+                          toast({
+                              title: "Coming Soon",
+                              description: "Details for Elizabeth Blancke-Biggs's masterclass will be announced shortly.",
+                          });
+                      }}
+                    >
+                      DETAILS
+                    </Button>
+                  </div>
+                </div>
+              </Card>
+            </div>
+
+            {/* Aria Masterclass Series */}
+            <div className="flex flex-col">
+              <h3 className="text-xl font-heading font-bold text-center mb-4 text-white/90">Aria Masterclass Series</h3>
+              <Card className="bg-card border-none rounded-none overflow-hidden group hover:shadow-2xl transition-all duration-500">
+                <div className="aspect-[3/4] bg-neutral-900 relative overflow-hidden">
+                  <img 
+                      src={ariaSeries} 
+                      alt="Aria Masterclass Series" 
+                      className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-90" />
+                  <div className="absolute bottom-0 left-0 p-8 w-full z-10">
+                    <p className="text-primary text-sm tracking-widest mb-2 uppercase">Upcoming Series</p>
+                    <h3 className="text-2xl font-heading font-bold text-white mb-2">Elizabeth Blancke-Biggs & Mo. Michael Recchiuti</h3>
+                    <p className="text-white/80 text-sm mb-6">Series 1: Mozart, Bel Canto, Verdi<br/>Series 2: Puccini, Verismo, Wagner, Strauss</p>
+                    <Button 
+                      variant="outline" 
+                      className="w-full border-white/20 text-white hover:bg-primary hover:border-primary hover:text-black rounded-none py-6"
+                      onClick={() => {
+                          toast({
+                              title: "Coming Soon",
+                              description: "Details for the Aria Masterclass Series will be announced shortly.",
                           });
                       }}
                     >

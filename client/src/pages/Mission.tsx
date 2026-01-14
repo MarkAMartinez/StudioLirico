@@ -79,7 +79,7 @@ export default function Mission() {
             <div>
               <h2 className="text-4xl font-heading font-bold mb-6">Artistic Direction</h2>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                 Under the guidance of Maestro Michael Recchiuti, Studio Lirico NYC upholds the highest standards of the operatic tradition. With a career spanning decades of international conducting, teaching, and collaborating with some of the greatest artists of the opera world he brings unparalleled insight and passion to the next generation of artists.
+                 Under the guidance of Maestro Michael Recchiuti, Studio Lirico NYC upholds the highest standards of the operatic tradition. With a career spanning decades conducting on the world's great stages, Maestro Recchiuti brings unparalleled insight and passion to the next generation of vocal artists.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
                  For more information about Maestro Recchiuti's career and engagements, please visit <a href="https://www.michaelrecchiuti.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">www.michaelrecchiuti.com</a>.
@@ -115,6 +115,11 @@ export default function Mission() {
                     {name}
                   </h3>
                 ))}
+              </div>
+              <div className="mt-16 pt-8 border-t border-white/10">
+                <p className="text-muted-foreground text-sm uppercase tracking-widest">
+                  Legal representation by Falcon Rappaport & Berkman LLP
+                </p>
               </div>
            </div>
         </div>
