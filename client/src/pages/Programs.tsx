@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { useLocation } from "wouter";
 import { useToast } from "@/hooks/use-toast";
-import morrisRobinson from '@assets/PHOTO-2026-01-06-10-10-37_1767752923954.jpg';
+import morrisRobinson from '@assets/PHOTO-2026-01-06-10-10-37.jpg';
 import jonathanTetelman from '@assets/image_1767039049084.png';
 import elizabethBlanckeBiggs from '@assets/EBB.jpg';
 import ariaSeries from '@assets/Duo.jpg';
