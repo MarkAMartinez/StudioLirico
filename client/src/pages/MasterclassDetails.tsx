@@ -65,7 +65,7 @@ export default function MasterclassDetails() {
                     <div className="bg-secondary/30 p-8 border border-white/10 my-8">
                         <h3 className="text-xl font-bold mb-4 text-primary">Application Details</h3>
                         <p className="mb-4">
-                            Applications to participate must include a bio, headshot, links to two vocal selections, and a fee of $25 payable to our Zelle QR code on the Donate link, or the email- payments.studioliriconyc@gmail.com.
+                            Applications to participate must include a bio, headshot, links to two vocal selections, and a fee of $25 payable to our Zelle QR code on the Support link, or the email- payments.studioliriconyc@gmail.com.
                         </p>
                         <p className="mb-4">
                             <strong>Six participants</strong> will be chosen, six alternates, and all other applicants may come as auditors. 
