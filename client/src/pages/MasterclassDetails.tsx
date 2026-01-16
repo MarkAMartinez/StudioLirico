@@ -69,10 +69,10 @@ export default function MasterclassDetails() {
                         </p>
                         <p className="mb-4">
                             <strong>Six participants</strong> will be chosen, six alternates, and all other applicants may come as auditors. 
-                            Admission for singers and the public is $25.
+                            Admission for singers and the public is $25. There are no additional fees.
                         </p>
                         <p className="font-bold text-white">
-                            Deadline is January 20.
+                            Deadline is January 21.
                         </p>
                         
                         <div className="mt-6 pt-6 border-t border-white/10">
