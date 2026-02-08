@@ -8,6 +8,7 @@ import Home from "@/pages/Home";
 import Mission from "@/pages/Mission";
 import Programs from "@/pages/Programs";
 import MasterclassDetails from "@/pages/MasterclassDetails";
+import AriaMasterclassDetails from "@/pages/AriaMasterclassDetails";
 import PastEventStAnthony from "@/pages/PastEventStAnthony";
 import { useEffect } from "react";
 
@@ -30,6 +31,7 @@ function Router() {
         <Route path="/mission" component={Mission} />
         <Route path="/programs" component={Programs} />
         <Route path="/masterclass-morris-robinson" component={MasterclassDetails} />
+        <Route path="/programs/aria-masterclass-series" component={AriaMasterclassDetails} />
         <Route path="/past-event-st-anthony" component={PastEventStAnthony} />
         <Route component={NotFound} />
       </Switch>
