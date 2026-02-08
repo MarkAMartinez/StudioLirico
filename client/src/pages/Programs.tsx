@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { useLocation } from "wouter";
 import { useToast } from "@/hooks/use-toast";
-import morrisRobinson from '@assets/EBB_MR.jpg';
+import morrisRobinson from '@assets/morris.jpg';
 import jonathanTetelman from '@assets/tetelman.png';
 import elizabethBlanckeBiggs from '@assets/EBB.jpg';
 import ariaSeries from '@assets/EBB_MR.jpg';
@@ -70,7 +70,7 @@ export default function Programs() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-90" />
                   <div className="absolute bottom-0 left-0 p-8 w-full z-10">
-                    <p className="text-primary text-sm tracking-widest mb-2 uppercase">January 2026</p>
+                    <p className="text-primary text-sm tracking-widest mb-2 uppercase">Postponed due to snow</p>
                     <h3 className="text-3xl font-heading font-bold text-white mb-2">Morris Robinson</h3>
                     <p className="text-white/80 text-lg mb-6">International Opera Star</p>
                     <Button 
@@ -141,33 +141,6 @@ export default function Programs() {
                               description: "Details for Elizabeth Blancke-Biggs's masterclass will be announced shortly.",
                           });
                       }}
-                    >
-                      DETAILS
-                    </Button>
-                  </div>
-                </div>
-              </Card>
-            </div>
-
-            {/* Aria Masterclass Series */}
-            <div className="flex flex-col">
-              <h3 className="text-xl font-heading font-bold text-center mb-4 text-white/90">Aria Masterclass Series</h3>
-              <Card className="bg-card border-none rounded-none overflow-hidden group hover:shadow-2xl transition-all duration-500">
-                <div className="aspect-[3/4] bg-neutral-900 relative overflow-hidden">
-                  <img 
-                      src={ariaSeries} 
-                      alt="Aria Masterclass Series" 
-                      className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-90" />
-                  <div className="absolute bottom-0 left-0 p-8 w-full z-10">
-                    <p className="text-primary text-sm tracking-widest mb-2 uppercase">Upcoming Series</p>
-                    <h3 className="text-2xl font-heading font-bold text-white mb-2">Elizabeth Blancke-Biggs & Mo. Michael Recchiuti</h3>
-                    <p className="text-white/80 text-sm mb-6">Series 1: Mozart, Bel Canto, Verdi<br/>Series 2: Puccini, Verismo, Wagner, Strauss</p>
-                    <Button 
-                      variant="outline" 
-                      className="w-full border-white/20 text-white hover:bg-primary hover:border-primary hover:text-black rounded-none py-6"
-                      onClick={() => setLocation("/programs/aria-masterclass-series")}
                     >
                       DETAILS
                     </Button>
