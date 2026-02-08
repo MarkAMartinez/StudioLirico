@@ -1,6 +1,6 @@
 import heroImage from '@assets/stock_images/classical_music_shee_2ec9bdf6.jpg';
-import maestroPortrait from '@assets/michael_1766181089128.jpg';
-import maestroConducting from '@assets/P1000457_1766181097631.jpeg';
+import maestroPortrait from '@assets/MR.jpg';
+import maestroConducting from '@assets/conducting.jpg';
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { motion } from "framer-motion";

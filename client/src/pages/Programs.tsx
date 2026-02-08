@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { useLocation } from "wouter";
 import { useToast } from "@/hooks/use-toast";
 import morrisRobinson from '@assets/EBB_MR.jpg';
-import jonathanTetelman from '@assets/image_1767039049084.png';
+import jonathanTetelman from '@assets/tetelman.png';
 import elizabethBlanckeBiggs from '@assets/EBB.jpg';
 import ariaSeries from '@assets/EBB_MR.jpg';
 import stAnthonyChurch from '@assets/Screenshot_2026-01-03_at_3.34.35_PM_1767472478626.png';
