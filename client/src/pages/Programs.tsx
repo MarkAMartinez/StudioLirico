@@ -43,7 +43,7 @@ export default function Programs() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-90" />
                   <div className="absolute bottom-0 left-0 p-8 w-full z-10">
-                    <p className="text-primary text-sm tracking-widest mb-2 uppercase">Upcoming Series</p>
+                    <p className="text-primary text-sm tracking-widest mb-2 uppercase">March 2026</p>
                     <h3 className="text-2xl font-heading font-bold text-white mb-2">Elizabeth Blancke-Biggs & Mo. Michael Recchiuti</h3>
                     <p className="text-white/80 text-sm mb-6">Series 1: Mozart, Bel Canto, Verdi<br/>Series 2: Puccini, Verismo, Wagner, Strauss</p>
                     <Button 
