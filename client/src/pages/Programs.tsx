@@ -7,7 +7,8 @@ import { useToast } from "@/hooks/use-toast";
 import morrisRobinson from '@assets/morris.jpg';
 import jonathanTetelman from '@assets/tetelman.png';
 import elizabethBlanckeBiggs from '@assets/EBB.jpg';
-import ariaSeries from '@assets/EBB_MR.jpg';
+import ariaSeries from '@assets/M_R_Piano.jpg';
+import pastAriaSeries from '@assets/EBB_MR.jpg';
 import stAnthonyChurch from '@assets/Screenshot_2026-01-03_at_3.34.35_PM_1767472478626.png';
 
 export default function Programs() {
@@ -43,9 +44,9 @@ export default function Programs() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-90" />
                   <div className="absolute bottom-0 left-0 p-8 w-full z-10">
-                    <p className="text-primary text-sm tracking-widest mb-2 uppercase">March 2026</p>
+                    <p className="text-primary text-sm tracking-widest mb-2 uppercase">April 2026</p>
                     <h3 className="text-2xl font-heading font-bold text-white mb-2">Elizabeth Blancke-Biggs & Mo. Michael Recchiuti</h3>
-                    <p className="text-white/80 text-sm mb-6">Series 1: Mozart, Bel Canto, Verdi<br/>Series 2: Puccini, Verismo, Wagner, Strauss</p>
+                    <p className="text-white/80 text-sm mb-6">Audition Package Masterclass Series<br/>Verismo, Wagner, and Strauss</p>
                     <Button 
                       variant="outline" 
                       className="w-full border-white/20 text-white hover:bg-primary hover:border-primary hover:text-black rounded-none py-6"
@@ -156,6 +157,31 @@ export default function Programs() {
           <h2 className="text-3xl font-heading font-bold mb-12 border-l-4 border-primary pl-4">Past Events</h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <Card className="bg-card border border-white/10 rounded-none overflow-hidden group hover:shadow-2xl transition-all duration-500">
+              <div className="aspect-video bg-neutral-900 relative overflow-hidden">
+                <img
+                    src={pastAriaSeries}
+                    alt="Aria Masterclass Series"
+                    className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors duration-500" />
+              </div>
+              <div className="p-6">
+                <p className="text-primary text-xs tracking-widest mb-2 uppercase">Past Event</p>
+                <h3 className="text-xl font-heading font-bold text-white mb-2">Aria Masterclass Series</h3>
+                <p className="text-muted-foreground text-sm mb-4">
+                  Elizabeth Blancke-Biggs &amp; Mo. Michael Recchiuti. Mozart, Bel Canto, and Verdi singers.
+                </p>
+                <Button
+                  variant="link"
+                  className="text-white hover:text-primary p-0 h-auto font-medium"
+                  onClick={() => setLocation("/past-events/aria-masterclass-series")}
+                >
+                  VIEW HIGHLIGHTS &rarr;
+                </Button>
+              </div>
+            </Card>
+
             <Card className="bg-card border border-white/10 rounded-none overflow-hidden group hover:shadow-2xl transition-all duration-500">
               <div className="aspect-video bg-neutral-900 relative overflow-hidden">
                 <img 

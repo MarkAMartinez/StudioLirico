@@ -2,7 +2,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
 import { useLocation } from "wouter";
-import ariaSeriesImage from '@assets/EBB_MR.jpg';
+import ariaSeriesImage from '@assets/M_R_Piano.jpg';
 import zelleQR from '@assets/image_1767036056896.png';
 
 export default function AriaMasterclassDetails() {
@@ -35,7 +35,7 @@ export default function AriaMasterclassDetails() {
                     <p className="text-primary text-sm tracking-widest uppercase mb-2">Audition Package Masterclass Series</p>
                     <h1 className="text-4xl md:text-5xl font-heading font-bold mb-4">Aria Masterclass Series</h1>
                     <h2 className="text-2xl font-light text-white/80 mb-4 italic">
-                        Mozart, Bel Canto, and Verdi Singers
+                        Verismo, Wagner, and Strauss
                     </h2>
                 </div>
 
@@ -48,7 +48,7 @@ export default function AriaMasterclassDetails() {
                     
                     <p className="text-lg leading-relaxed">
                         The course will consist of four intensive two hour coaching classes on every aspect of preparing and recording your audition arias, 
-                        leading toward a professionally recorded high definition recital performance session.
+                        classes to be held at the AMDA Studios in NYC leading toward a professionally recorded high definition recital performance session at the state of the art NV Factory Recording Studio in Englewood, NJ.
                     </p>
 
                     <p className="text-lg leading-relaxed">
@@ -61,14 +61,14 @@ export default function AriaMasterclassDetails() {
                         <div className="space-y-4 mb-6">
                             <div>
                                 <h4 className="font-bold text-white mb-1">Classes</h4>
-                                <p className="text-white/80">March 3, 5, 10, 13</p>
+                                <p className="text-white/80">April 14, 16, 22, 23</p>
                                 <p className="text-white/80">7:00 PM - 9:00 PM</p>
                                 <p className="text-white/60 text-sm">AMDA Studios, 244 W 54th St., NY</p>
                             </div>
                             
                             <div>
                                 <h4 className="font-bold text-white mb-1">Recital Recording</h4>
-                                <p className="text-white/80">Saturday, March 14</p>
+                                <p className="text-white/80">Saturday, April 24</p>
                                 <p className="text-white/80">8:00 PM - 10:00 PM</p>
                                 <p className="text-white/60 text-sm">NV Factory Recording Studio, 400 Sylvan Ave., Englewood Cliffs, NJ</p>
                             </div>
@@ -96,7 +96,7 @@ export default function AriaMasterclassDetails() {
 
                         <div className="flex flex-col md:flex-row gap-8 items-start mb-6">
                             <div className="flex-1">
-                                <p className="mb-2 font-bold">Application Fee: $10</p>
+                                <p className="mb-2 font-bold">Application Fee: $25</p>
                                 <p className="text-sm text-white/70 mb-2">Payable via Zelle or email:</p>
                                 <a href="mailto:payments.studioliriconyc@gmail.com" className="text-primary text-sm hover:underline">
                                     payments.studioliriconyc@gmail.com
@@ -108,17 +108,13 @@ export default function AriaMasterclassDetails() {
                         </div>
 
                         <p className="font-bold text-white border-t border-white/10 pt-4 mt-4">
-                            Application Deadline: February 19, 2026
+                            Application Deadline: April 3, 2026
                         </p>
-                        <p className="text-sm text-white/60">Participants will be notified by February 21.</p>
                     </div>
 
                     <div className="bg-primary/10 p-6 border-l-2 border-primary mt-8">
                         <p className="text-white/90 font-medium">
-                            Coming Soon: Next Masterclass series on Verismo, Wagner, and Strauss.
-                        </p>
-                        <p className="text-white/70 text-sm mt-2">
-                            Singers on Singing Masterclasses with Jonathan Tetelman and Elizabeth Blancke-Biggs TBA.
+                            Next up: Singers on Singing: Masterclasses with Jonathan Tetelman and Elizabeth Blancke-Biggs TBA.
                         </p>
                     </div>
                 </div>
