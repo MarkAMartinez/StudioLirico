@@ -108,7 +108,7 @@ export default function AriaMasterclassDetails() {
                         </div>
 
                         <p className="font-bold text-white border-t border-white/10 pt-4 mt-4">
-                            Application Deadline: April 3, 2026
+                            Application Deadline: April 10, 2026
                         </p>
                     </div>
 
