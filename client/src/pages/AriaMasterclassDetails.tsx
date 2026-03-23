@@ -68,7 +68,7 @@ export default function AriaMasterclassDetails() {
                             
                             <div>
                                 <h4 className="font-bold text-white mb-1">Recital Recording</h4>
-                                <p className="text-white/80">Saturday, April 24</p>
+                                <p className="text-white/80">Saturday, April 27</p>
                                 <p className="text-white/80">8:00 PM - 10:00 PM</p>
                                 <p className="text-white/60 text-sm">NV Factory Recording Studio, 400 Sylvan Ave., Englewood Cliffs, NJ</p>
                             </div>
