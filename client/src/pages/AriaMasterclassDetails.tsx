@@ -61,15 +61,15 @@ export default function AriaMasterclassDetails() {
                         <div className="space-y-4 mb-6">
                             <div>
                                 <h4 className="font-bold text-white mb-1">Classes</h4>
-                                <p className="text-white/80">April 14, 16, 22, 23</p>
+                                <p className="text-white/80">June 2, 3, 5, 9</p>
                                 <p className="text-white/80">7:00 PM - 9:00 PM</p>
                                 <p className="text-white/60 text-sm">AMDA Studios, 244 W 54th St., NY</p>
                             </div>
-                            
+
                             <div>
                                 <h4 className="font-bold text-white mb-1">Recital Recording</h4>
-                                <p className="text-white/80">Monday, April 27</p>
-                                <p className="text-white/80">8:00 PM - 10:00 PM</p>
+                                <p className="text-white/80">Thursday, June 11</p>
+                                <p className="text-white/80">7:00 PM - 9:00 PM</p>
                                 <p className="text-white/60 text-sm">NV Factory Recording Studio, 400 Sylvan Ave., Englewood Cliffs, NJ</p>
                             </div>
                         </div>
@@ -107,16 +107,8 @@ export default function AriaMasterclassDetails() {
                             </div>
                         </div>
 
-                        <p className="font-bold text-white border-t border-white/10 pt-4 mt-4">
-                            Application Deadline: April 10, 2026
-                        </p>
                     </div>
 
-                    <div className="bg-primary/10 p-6 border-l-2 border-primary mt-8">
-                        <p className="text-white/90 font-medium">
-                            Next up: Singers on Singing: Masterclasses with Jonathan Tetelman and Elizabeth Blancke-Biggs TBA.
-                        </p>
-                    </div>
                 </div>
             </div>
         </div>

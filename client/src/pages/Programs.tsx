@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { useLocation } from "wouter";
 import { useToast } from "@/hooks/use-toast";
 import morrisRobinson from '@assets/morris.jpg';
-import jonathanTetelman from '@assets/tetelman.png';
 import elizabethBlanckeBiggs from '@assets/EBB.jpg';
 import ariaSeries from '@assets/M_R_Piano.jpg';
 import pastAriaSeries from '@assets/EBB_MR.jpg';
@@ -44,7 +43,7 @@ export default function Programs() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-90" />
                   <div className="absolute bottom-0 left-0 p-8 w-full z-10">
-                    <p className="text-primary text-sm tracking-widest mb-2 uppercase">April 2026</p>
+                    <p className="text-primary text-sm tracking-widest mb-2 uppercase">June 2026</p>
                     <h3 className="text-2xl font-heading font-bold text-white mb-2">Elizabeth Blancke-Biggs & Mo. Michael Recchiuti</h3>
                     <p className="text-white/80 text-sm mb-6">Audition Package Masterclass Series<br/>Verismo, Wagner, and Strauss</p>
                     <Button 
@@ -78,38 +77,6 @@ export default function Programs() {
                       variant="outline" 
                       className="w-full border-white/20 text-white hover:bg-primary hover:border-primary hover:text-black rounded-none py-6"
                       onClick={() => setLocation("/masterclass-morris-robinson")}
-                    >
-                      DETAILS
-                    </Button>
-                  </div>
-                </div>
-              </Card>
-            </div>
-
-            {/* Jonathan Tetelman */}
-            <div className="flex flex-col">
-              <h3 className="text-xl font-heading font-bold text-center mb-4 text-white/90">Masterclass Series</h3>
-              <Card className="bg-card border-none rounded-none overflow-hidden group hover:shadow-2xl transition-all duration-500">
-                <div className="aspect-[3/4] bg-neutral-900 relative overflow-hidden">
-                  <img 
-                      src={jonathanTetelman} 
-                      alt="Jonathan Tetelman" 
-                      className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-90" />
-                  <div className="absolute bottom-0 left-0 p-8 w-full z-10">
-                    <p className="text-primary text-sm tracking-widest mb-2 uppercase">May 2026</p>
-                    <h3 className="text-3xl font-heading font-bold text-white mb-2">Jonathan Tetelman</h3>
-                    <p className="text-white/80 text-lg mb-6">International Opera Star</p>
-                    <Button 
-                      variant="outline" 
-                      className="w-full border-white/20 text-white hover:bg-primary hover:border-primary hover:text-black rounded-none py-6"
-                      onClick={() => {
-                          toast({
-                              title: "Coming Soon",
-                              description: "Details for Jonathan Tetelman's masterclass will be announced shortly.",
-                          });
-                      }}
                     >
                       DETAILS
                     </Button>
@@ -157,6 +124,31 @@ export default function Programs() {
           <h2 className="text-3xl font-heading font-bold mb-12 border-l-4 border-primary pl-4">Past Events</h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <Card className="bg-card border border-white/10 rounded-none overflow-hidden group hover:shadow-2xl transition-all duration-500">
+              <div className="aspect-video bg-neutral-900 relative overflow-hidden">
+                <img
+                    src={ariaSeries}
+                    alt="Aria Masterclass Series — April 2026"
+                    className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors duration-500" />
+              </div>
+              <div className="p-6">
+                <p className="text-primary text-xs tracking-widest mb-2 uppercase">Past Event</p>
+                <h3 className="text-xl font-heading font-bold text-white mb-2">Aria Masterclass Series &mdash; April 2026</h3>
+                <p className="text-muted-foreground text-sm mb-4">
+                  Elizabeth Blancke-Biggs &amp; Mo. Michael Recchiuti. Verismo, Wagner, and Strauss.
+                </p>
+                <Button
+                  variant="link"
+                  className="text-white hover:text-primary p-0 h-auto font-medium"
+                  onClick={() => setLocation("/past-events/aria-masterclass-series-april")}
+                >
+                  VIEW HIGHLIGHTS &rarr;
+                </Button>
+              </div>
+            </Card>
+
             <Card className="bg-card border border-white/10 rounded-none overflow-hidden group hover:shadow-2xl transition-all duration-500">
               <div className="aspect-video bg-neutral-900 relative overflow-hidden">
                 <img
