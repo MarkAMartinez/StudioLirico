@@ -3,6 +3,7 @@ import operaHouse from '@assets/stock_images/elegant_opera_house__eeb33555.jpg';
 import maestroConducting from '@assets/conducting.jpg';
 import zelleQR from '@assets/qr.png';
 import morrisRobinson from '@assets/morris.jpg';
+import ariaSeries from '@assets/M_R_Piano.jpg';
 import { Button } from "@/components/ui/button";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
@@ -117,23 +118,50 @@ export default function Home() {
           
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="flex flex-col">
+              <h3 className="text-xl font-heading font-bold text-center mb-4 text-white/90">Aria Masterclass Series</h3>
+              <Card className="bg-card border-none rounded-none overflow-hidden group hover:shadow-2xl transition-all duration-500">
+                <div className="aspect-[3/4] bg-neutral-900 relative overflow-hidden">
+                  <img
+                      src={ariaSeries}
+                      alt="Aria Masterclass Series"
+                      className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
+                  />
+
+                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-90" />
+                  <div className="absolute bottom-0 left-0 p-6 w-full z-10">
+                    <p className="text-primary text-sm tracking-widest mb-2 uppercase">June 2026</p>
+                    <h3 className="text-2xl font-heading font-bold text-white mb-1">Elizabeth Blancke-Biggs &amp; Mo. Michael Recchiuti</h3>
+                    <p className="text-white/80 text-sm mb-4">Audition Package Masterclass Series</p>
+                    <Button
+                      variant="outline"
+                      className="w-full border-white/20 text-white hover:bg-primary hover:border-primary hover:text-black rounded-none"
+                      onClick={() => setLocation("/programs/aria-masterclass-series")}
+                    >
+                      DETAILS
+                    </Button>
+                  </div>
+                </div>
+              </Card>
+            </div>
+
+            <div className="flex flex-col">
               <h3 className="text-xl font-heading font-bold text-center mb-4 text-white/90">Masterclass Series</h3>
               <Card className="bg-card border-none rounded-none overflow-hidden group hover:shadow-2xl transition-all duration-500">
                 <div className="aspect-[3/4] bg-neutral-900 relative overflow-hidden">
                   {/* Background Image */}
-                  <img 
-                      src={morrisRobinson} 
-                      alt="Morris Robinson" 
+                  <img
+                      src={morrisRobinson}
+                      alt="Morris Robinson"
                       className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700"
                   />
-                  
+
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-90" />
                   <div className="absolute bottom-0 left-0 p-6 w-full z-10">
                     <p className="text-primary text-sm tracking-widest mb-2 uppercase">January 2026</p>
                     <h3 className="text-2xl font-heading font-bold text-white mb-1">Morris Robinson</h3>
                     <p className="text-white/80 text-sm mb-4">International Opera Star</p>
-                    <Button 
-                      variant="outline" 
+                    <Button
+                      variant="outline"
                       className="w-full border-white/20 text-white hover:bg-primary hover:border-primary hover:text-black rounded-none"
                       onClick={() => setLocation("/masterclass-morris-robinson")}
                     >

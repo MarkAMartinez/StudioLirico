@@ -34,9 +34,6 @@ export default function AriaMasterclassDetails() {
                 <div className="mb-6">
                     <p className="text-primary text-sm tracking-widest uppercase mb-2">Audition Package Masterclass Series</p>
                     <h1 className="text-4xl md:text-5xl font-heading font-bold mb-4">Aria Masterclass Series</h1>
-                    <h2 className="text-2xl font-light text-white/80 mb-4 italic">
-                        Verismo, Wagner, and Strauss
-                    </h2>
                 </div>
 
                 <div className="prose prose-invert max-w-none mb-8 space-y-6">
