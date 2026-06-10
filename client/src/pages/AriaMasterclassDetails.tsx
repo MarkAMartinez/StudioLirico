@@ -58,14 +58,14 @@ export default function AriaMasterclassDetails() {
                         <div className="space-y-4 mb-6">
                             <div>
                                 <h4 className="font-bold text-white mb-1">Classes</h4>
-                                <p className="text-white/80">June 2, 3, 5, 9</p>
+                                <p className="text-white/80">June 29, July 1, 2, 6</p>
                                 <p className="text-white/80">7:00 PM - 9:00 PM</p>
                                 <p className="text-white/60 text-sm">AMDA Studios, 244 W 54th St., NY</p>
                             </div>
 
                             <div>
                                 <h4 className="font-bold text-white mb-1">Recital Recording</h4>
-                                <p className="text-white/80">Thursday, June 11</p>
+                                <p className="text-white/80">Wednesday, July 8</p>
                                 <p className="text-white/80">7:00 PM - 9:00 PM</p>
                                 <p className="text-white/60 text-sm">NV Factory Recording Studio, 400 Sylvan Ave., Englewood Cliffs, NJ</p>
                             </div>

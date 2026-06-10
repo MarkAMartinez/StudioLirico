@@ -129,7 +129,7 @@ export default function Home() {
 
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-90" />
                   <div className="absolute bottom-0 left-0 p-6 w-full z-10">
-                    <p className="text-primary text-sm tracking-widest mb-2 uppercase">June 2026</p>
+                    <p className="text-primary text-sm tracking-widest mb-2 uppercase">July 2026</p>
                     <h3 className="text-2xl font-heading font-bold text-white mb-1">Elizabeth Blancke-Biggs &amp; Mo. Michael Recchiuti</h3>
                     <p className="text-white/80 text-sm mb-4">Audition Package Masterclass Series</p>
                     <Button

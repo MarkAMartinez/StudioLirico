@@ -12,6 +12,7 @@ import AriaMasterclassDetails from "@/pages/AriaMasterclassDetails";
 import PastEventStAnthony from "@/pages/PastEventStAnthony";
 import PastAriaMasterclassDetails from "@/pages/PastAriaMasterclassDetails";
 import PastAriaMasterclassDetailsApril from "@/pages/PastAriaMasterclassDetailsApril";
+import PastAriaMasterclassDetailsJune from "@/pages/PastAriaMasterclassDetailsJune";
 import { useEffect } from "react";
 
 function ScrollToTop() {
@@ -36,6 +37,7 @@ function Router() {
         <Route path="/programs/aria-masterclass-series" component={AriaMasterclassDetails} />
         <Route path="/past-events/aria-masterclass-series" component={PastAriaMasterclassDetails} />
         <Route path="/past-events/aria-masterclass-series-april" component={PastAriaMasterclassDetailsApril} />
+        <Route path="/past-events/aria-masterclass-series-june" component={PastAriaMasterclassDetailsJune} />
         <Route path="/past-event-st-anthony" component={PastEventStAnthony} />
         <Route component={NotFound} />
       </Switch>
